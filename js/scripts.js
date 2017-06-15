@@ -20,6 +20,10 @@ $('#city-1').on('click', function() {
       // Display Data
       $('#one .temp').text(weather.temp);
       $('#one .city').text(weather.city);
+      $('#one .currently').text(weather.currently);
+    var iconCode = 'icon-' + weather.code;
+      $('i').attr('class', iconCode );
+      
       
     },
     error: function(error) {
@@ -45,6 +49,9 @@ $('#city-2').on('click', function() {
       // Display Data
       $('#two .temp').text(weather.temp);
       $('#two .city').text(weather.city);
+      $('#two .currently').text(weather.currently);
+    var iconCode = 'icon-' + weather.code;
+      $('i').attr('class', iconCode );
       
     },
     error: function(error) {
@@ -87,6 +94,10 @@ $('#city-3').on('click', function() {
       // Display Data
       $('#three .temp').text(weather.temp);
       $('#three .city').text(weather.city);
+      $('#three .currently').text(weather.currently);
+          var iconCode = 'icon-' + weather.code;
+      $('i').attr('class', iconCode );
+      
         
 
     },
