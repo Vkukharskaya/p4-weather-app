@@ -3,7 +3,8 @@
     
 /* Styling */
 body {
-    background: red;
+    background: white
+;
 }
 
 // Drawer
@@ -28,6 +29,13 @@ aside {
 }
 
 // All Sections
+
+ul {
+    list-style: none; 
+
+    
+    
+}
 section {
   position: absolute;
   height: 100%;

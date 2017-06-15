@@ -11,7 +11,7 @@ $('.toggle-drawer').click( function() {
 $('#city-1').on('click', function() {
   
   $.simpleWeather({
-    location: 99004,
+    location: 93920,
     unit: 'f',
     success: function(weather) {
       // Entire weather object
